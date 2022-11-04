@@ -1,9 +1,7 @@
-import React from 'react';
-import {RiMenu3Line, RiCloseLine} from 'react-icons/ri';
-import logo from '../../assets/logo.svg'
+import React, { useState } from 'react';
+import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+import logo from '../../assets/logo.svg';
 import './navbar.css';
-
-// CSS convention class naming sytle - BEM -> Block Element Modifier
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -50,8 +48,4 @@ const Navbar = () => {
   );
 };
 
-
-
-
-
-export default Navbar
+export default Navbar;
